@@ -16,7 +16,7 @@ class CreateSalleTable extends Migration
         Schema::create('salle', function (Blueprint $table) {
             $table->increments('id_salle');
             $table->unsignedInteger('id_batiment');
-            $table->unsignedInteger('id_batiment');
+            $table->unsignedInteger('id_departement');
             $table->string('numero');
             $table->string('nama_salle')->unique();
             $table->integer('capacite');
