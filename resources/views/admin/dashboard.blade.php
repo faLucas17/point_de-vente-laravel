@@ -88,7 +88,7 @@
             <div class="inner">
                 <h3>{{ $penjualan }}</h3>
 
-                <p>Ventes</p>
+                <p>Total Classes</p>
             </div>
             <div class="icon">
                 <i class="fa fa-dollarp"></i> 
@@ -96,8 +96,8 @@
             <a href="{{ route('penjualan.index') }}" class="small-box-footer">Vue <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
+    <!--<div class="col-lg-3 col-xs-6">
+        small box 
         <div class="small-box" style="background-color: #005564;">
             <div class="inner">
                 <h3>{{ $pengeluaran }}</h3>
@@ -109,17 +109,17 @@
             </div>
             <a href="{{ route('pengeluaran.index') }}" class="small-box-footer">View <i class="fa fa-arrow-circle-right"></i></a>
         </div>
-    </div>
+    </div>-->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
         <div class="small-box" style="background-color: #FFFBF0;">
             <div class="inner">
                 <h3>{{ $pembelian }}</h3>
 
-                <p>Achat total</p>
+                <p>total utilisateurs</p>
             </div>
             <div class="icon">
-                <i class="fa fa-dollarp"></i>
+                <i class="fa fa-user-secret"></i>
             </div>
             <a href="{{ route('pembelian.index') }}" class="small-box-footer">Vue<i class="fa fa-arrow-circle-right"></i></a>
         </div>

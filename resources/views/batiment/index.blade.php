@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Batiment List
+    List des batiments
 @endsection
 
 @section('breadcrumb')

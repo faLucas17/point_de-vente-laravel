@@ -14,7 +14,7 @@
     <div class="col-lg-12">
         <div class="box">
             <div class="box-header with-border">
-                <button onclick="addForm('{{ route('departement.store') }}')" class="btn btn-success btn-flat"><i class="fa fa-plus-circle"></i> Ajouter un nouveau Batiment</button>
+                <button onclick="addForm('{{ route('departement.store') }}')" class="btn btn-success btn-flat"><i class="fa fa-plus-circle"></i> Ajouter un departement</button>
             </div>
             <div class="box-body table-responsive">
                 <table class="table table-stiped table-bordered table-hover">
